@@ -1,61 +1,61 @@
 # @summary Define for service types
-#   For a full description of the exec type check: https://www.puppet.com/docs/puppet/7/types/service.html
+#   For a full description of the exec type check: https://www.puppet.com/docs/puppet/latest/types/service.html
 #
 # @param ensure
 #   Value passed to ensure attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-ensure for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-ensure for more information.
 #
 # @param binary
 #   Value passed to binary attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-binary for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-binary for more information.
 #
 # @param control
 #   Value passed to control attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-control for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-control for more information.
 #
 # @param enable
 #   Value passed to enable attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-enable for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-enable for more information.
 #
 # @param hasrestart
 #   Value passed to hasrestart attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-hasrestart for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-hasrestart for more information.
 #
 # @param hasstatus
 #   Value passed to hasstatus attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-hasstatus for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-hasstatus for more information.
 #
 # @param manifest
 #   Value passed to manifest attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-manifest for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-manifest for more information.
 #
 # @param path
 #   Value passed to path attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-path for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-path for more information.
 #
 # @param pattern
 #   Value passed to pattern attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-pattern for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-pattern for more information.
 #
 # @param provider
 #   Value passed to provider attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-provider for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-provider for more information.
 #
 # @param restart
 #   Value passed to restart attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-restart for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-restart for more information.
 #
 # @param start
 #   Value passed to start attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-start for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-start for more information.
 #
 # @param status
 #   Value passed to status attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-status for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-status for more information.
 #
 # @param stop
 #   Value passed to stop attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/service.html#service-attribute-stop for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/service.html#service-attribute-stop for more information.
 #
 define types::service (
   Stdlib::Ensure::Service          $ensure      = 'running',

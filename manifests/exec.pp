@@ -1,73 +1,73 @@
 # @summary Define for exec types
-#   For a full description of the exec type check: https://www.puppet.com/docs/puppet/7/types/exec.html
+#   For a full description of the exec type check: https://www.puppet.com/docs/puppet/latest/types/exec.html
 #
 # @param command
 #   Value passed to command attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-command for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-command for more information.
 #
 # @param creates
 #   Value passed to creates attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-creates for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-creates for more information.
 #
 # @param cwd
 #   Value passed to cwd attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-cwd for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-cwd for more information.
 #
 # @param environment
 #   Value passed to environment attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-environment for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-environment for more information.
 #
 # @param group
 #   Value passed to group attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-group for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-group for more information.
 #
 # @param logoutput
 #   Value passed to logoutput attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-logoutput for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-logoutput for more information.
 #
 # @param onlyif
 #   Value passed to onlyif attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-onlyif for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-onlyif for more information.
 #
 # @param path
 #   Value passed to path attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-path for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-path for more information.
 #
 # @param provider
 #   Value passed to provider attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-provider for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-provider for more information.
 #
 # @param refresh
 #   Value passed to refresh attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-refresh for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-refresh for more information.
 #
 # @param refreshonly
 #   Value passed to refreshonly attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-refreshonly for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-refreshonly for more information.
 #
 # @param returns
 #   Value passed to returns attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-returns for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-returns for more information.
 #
 # @param timeout
 #   Value passed to timeout attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-timeout for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-timeout for more information.
 #
 # @param tries
 #   Value passed to tries attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-tries for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-tries for more information.
 #
 # @param try_sleep
 #   Value passed to try_sleep attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-try_sleep for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-try_sleep for more information.
 #
 # @param unless
 #   Value passed to unless attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-unless for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-unless for more information.
 #
 # @param user
 #   Value passed to user attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/exec.html#exec-attribute-user for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/exec.html#exec-attribute-user for more information.
 #
 define types::exec (
   String[1]                                      $command,

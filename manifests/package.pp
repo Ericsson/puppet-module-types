@@ -1,41 +1,41 @@
 # @summary Define for package types
-#   For a full description of the exec type check: https://www.puppet.com/docs/puppet/7/types/package.html
+#   For a full description of the exec type check: https://www.puppet.com/docs/puppet/latest/types/package.html
 #
 # @param ensure
 #   Value passed to ensure attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-ensure for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-ensure for more information.
 #
 # @param adminfile
 #   Value passed to adminfile attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-adminfile for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-adminfile for more information.
 #
 # @param allowcdrom
 #   Value passed to allowcdrom attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-allowcdrom for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-allowcdrom for more information.
 #
 # @param configfiles
 #   Value passed to configfiles attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-configfiles for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-configfiles for more information.
 #
 # @param install_options
 #   Value passed to install_options attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-install_options for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-install_options for more information.
 #
 # @param provider
 #   Value passed to provider attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-provider for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-provider for more information.
 #
 # @param responsefile
 #   Value passed to responsefile attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-responsefile for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-responsefile for more information.
 #
 # @param source
 #   Value passed to source attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-source for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-source for more information.
 #
 # @param uninstall_options
 #   Value passed to uninstall_options attribute. Unused if empty.
-#   Check https://www.puppet.com/docs/puppet/7/types/package.html#package-attribute-uninstall_options for more information.
+#   Check https://www.puppet.com/docs/puppet/latest/types/package.html#package-attribute-uninstall_options for more information.
 #
 define types::package (
   Stdlib::Ensure::Package           $ensure            = 'present',
