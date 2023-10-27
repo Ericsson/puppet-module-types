@@ -536,11 +536,11 @@ describe 'types' do
         services: {
           'service-stopped' => {
             'ensure' => 'stopped',
-            'enable' => 'false',
+            'enable' => false,
           },
           'service-running' => {
             'ensure' => 'running',
-            'enable' => 'true',
+            'enable' => true,
           }
         }
       }
@@ -552,7 +552,7 @@ describe 'types' do
       is_expected.to contain_service('service-stopped').with(
         {
           'ensure' => 'stopped',
-          'enable' => 'false',
+          'enable' => false,
         },
       )
     end
@@ -561,7 +561,7 @@ describe 'types' do
       is_expected.to contain_service('service-running').with(
         {
           'ensure' => 'running',
-          'enable' => 'true',
+          'enable' => true,
         },
       )
     end
