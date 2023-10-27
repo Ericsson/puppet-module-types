@@ -63,7 +63,7 @@ describe 'types::service' do
     it 'fails' do
       expect {
         is_expected.to contain_class('types')
-      }.to raise_error(Puppet::Error, %r{expects a value of type Boolean or Enum})
+      }.to raise_error(Puppet::Error, %r{expects a match for Stdlib::Ensure::Service})
     end
   end
 
