@@ -15,5 +15,3 @@ fixtures:
     selinux:
       repo: 'https://github.com/puppetlabs/puppetlabs-selinux_core.git'
       ref: '1.0.1'
-  symlinks:
-    types: "#{source_dir}"
