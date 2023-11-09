@@ -100,7 +100,7 @@ describe 'types::file' do
     it 'fails' do
       expect {
         is_expected.to contain_class('types')
-      }.to raise_error(Puppet::Error, %r{expects a match for Enum})
+      }.to raise_error(Puppet::Error, %r{expects a match for Stdlib::Ensure::File})
     end
   end
 

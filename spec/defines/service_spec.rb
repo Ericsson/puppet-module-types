@@ -21,8 +21,8 @@ describe 'types::service' do
         binary:     '/bin/true',
         control:    'SERVICE_MAXIMUM_START',
         enable:     'manual',
-        hasrestart: 'true',
-        hasstatus:  'false',
+        hasrestart: true,
+        hasstatus:  false,
         manifest:   '/bin/manifest',
         path:       '/etc/init.d',
         pattern:    'service_maximum',
@@ -63,12 +63,12 @@ describe 'types::service' do
     it 'fails' do
       expect {
         is_expected.to contain_class('types')
-      }.to raise_error(Puppet::Error, %r{expects a value of type Boolean or Enum})
+      }.to raise_error(Puppet::Error, %r{expects a match for Stdlib::Ensure::Service})
     end
   end
 
   describe 'with parameter enable' do
-    ['true', true, 'false', false, 'manual'].each do |value|
+    [true, false, 'manual'].each do |value|
       context "set to #{value}" do
         let(:title) { 'my_service' }
         let(:params) { { enable: value } }
