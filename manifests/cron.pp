@@ -51,17 +51,17 @@
 #
 define types::cron (
   String[1]                 $command,
-  Enum['present', 'absent'] $ensure      = 'present',
-  Optional[String[1]]       $environment = undef,
-  Optional[String[1]]       $hour        = undef,
-  Optional[String[1]]       $minute      = undef,
-  Optional[String[1]]       $month       = undef,
-  Optional[String[1]]       $monthday    = undef,
-  Optional[String[1]]       $provider    = undef,
-  Optional[String[1]]       $special     = undef,
-  Optional[String[1]]       $target      = undef,
-  Optional[String[1]]       $user        = undef,
-  Optional[String[1]]       $weekday     = undef,
+  Enum['present', 'absent']       $ensure      = 'present',
+  Optional[String[1]]             $environment = undef,
+  Optional[Types::Cron::Periodic] $hour        = undef,
+  Optional[Types::Cron::Periodic] $minute      = undef,
+  Optional[Types::Cron::Periodic] $month       = undef,
+  Optional[Types::Cron::Periodic] $monthday    = undef,
+  Optional[Types::Cron::Periodic] $weekday     = undef,
+  Optional[Types::Cron::Periodic] $special     = undef,
+  Optional[String[1]]             $provider    = undef,
+  Optional[String[1]]             $target      = undef,
+  Optional[String[1]]             $user        = undef,
 ) {
   cron { $name:
     ensure      => $ensure,
