@@ -50,5 +50,5 @@ class types (
   create_resources('types::package',$packages)
   create_resources('types::selboolean',$selbooleans)
   create_resources('types::service',$services)
-  ensure_packages($ensure_packages)
+  stdlib::ensure_packages($ensure_packages)
 }
